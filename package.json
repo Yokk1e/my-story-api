@@ -5,13 +5,14 @@
   "repository": "https://github.com/Yokk1e/my-story-api.git",
   "author": "Yokk1e",
   "license": "MIT",
-  "type" : "module",
+  "type": "module",
   "scripts": {
-    "start" : "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "mongoose": "^5.12.9",
     "nodemon": "^2.0.7"
