@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Yokk1e/my-story-api.git",
-  "author": "satthabut <satthabut.o@gmail.com>",
+  "author": "Yokk1e",
   "license": "MIT",
+  "type" : "module",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
