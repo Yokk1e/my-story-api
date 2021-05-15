@@ -1,0 +1,15 @@
+{
+  "name": "my-story-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Yokk1e/my-story-api.git",
+  "author": "satthabut <satthabut.o@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9",
+    "nodemon": "^2.0.7"
+  }
+}
