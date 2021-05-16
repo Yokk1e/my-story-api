@@ -13,14 +13,13 @@ const auth = async (req, res, next) => {
       req.userId = decodedData?.id;
     } else {
       decodedData = jwt.decode(token);
-
       req.userId = decodedData?.sub;
     }
 
     next();
-  } catch (errro) {
+  } catch (error) {
     console.log(error);
   }
 };
 
-export default auth
+export default auth;
